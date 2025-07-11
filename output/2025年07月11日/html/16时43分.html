@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-11 16:43:04</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能 A股</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2163347" target="_blank" class="news-link">A股冲高回落微涨</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2082717" target="_blank" class="news-link">长钱长投新规出台，险企全面实施“当年+三年+五年”周期考核，确保长钱敢投A股</a> [11] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7525719419515833895/" target="_blank" class="news-link">A股冲高回落原因是什么</a> [13] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1926347569853851346" target="_blank" class="news-link">武汉网友称萝卜快跑开始强行加塞，是 AI 学坏了还是人工设定的？风险有多大？</a> [16] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=A%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B0%E9%9B%86%E4%BD%93%E4%B8%8A%E6%B6%A8+%E6%B2%AA%E6%8C%87%E5%BE%AE%E6%B6%A80.01%25" target="_blank" class="news-link">A股三大指数集体上涨 沪指微涨0.01%</a> [20] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7524753240972230692/" target="_blank" class="news-link">观点称4000点或是A股牛市起点</a> [23] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">车祸 冲突 交通事故 军方 地震</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31151784" target="_blank" class="news-link">以总理称考虑在实现临时停火60天后结束加沙冲突</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时43分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7524526329027510282/" target="_blank" class="news-link">造谣“院士预测广东有大地震”者被查</a> [6] <font color='grey'>- 16时43分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%99%A2%E5%A3%AB%E9%A2%84%E6%B5%8B%E5%B9%BF%E4%B8%9C8%E7%BA%A7%E5%9C%B0%E9%9C%87%EF%BC%9F%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5" target="_blank" class="news-link">院士预测广东8级地震？官方通报</a> [6] <font color='grey'>- 16时43分</font><br>[douyin] <a href="https://www.douyin.com/hot/2163172" target="_blank" class="news-link">造谣“院士预测广东将发生大地震”者被查</a> [6] <font color='grey'>- 16时43分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31155625" target="_blank" class="news-link">罗某良发布“院士预测广东将发生8级以上大地震”网络谣言被依法查处</a> [13] <font color='grey'>- 16时43分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">杭州 上海 房价</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750821" target="_blank" class="news-link">国家金融发展研究室：可以考虑在上海自贸试验区与香港同步推动相关人民币稳定币的创新探索工作</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时43分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1926233002087777631" target="_blank" class="news-link">为什么 2025 年上海海关学院投档线超过南京大学、上海交大等多所名校？行业特色高校有哪些优势？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时43分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2082183" target="_blank" class="news-link">上海国资委召开稳定币学习会 行业发展有望加快</a> [12] <font color='grey'>- 16时43分</font><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1926941448252646720" target="_blank" class="news-link">上海组织学习加密货币与稳定币，释放了何种信号？</a> [14] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750827" target="_blank" class="news-link">无惧关税来袭，标普纳指齐新高，特斯拉大反弹近5%，比特币续创新高</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时43分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2082231" target="_blank" class="news-link">6月新能源车销量TOP10：特斯拉止跌回暖，鸿蒙智行迎爆发期</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时43分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%A9%AC%E6%96%AF%E5%85%8B%E5%8F%91%E5%B8%83Grok4" target="_blank" class="news-link">马斯克发布Grok4</a> [29] <font color='grey'>- 16时43分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">汽车 自动驾驶 机器人</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31150089" target="_blank" class="news-link">600公里时速超导电动高速磁浮列车亮相：定位跨省点对点交通工具，具备全自动驾驶功能</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时43分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31150302" target="_blank" class="news-link">汽车冲入武汉一家奈雪的茶门店内，门店：仍营业不可堂食</a> [18] <font color='grey'>- 16时43分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">苹果 Apple 黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2082329" target="_blank" class="news-link">英伟达市值冲上4万亿美元 黄仁勋身家直追巴菲特 只差10亿美元了！</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时43分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">比特币 btc eth sol bnb</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2082181" target="_blank" class="news-link">比特币短暂突破11.7万刷新高 特朗普再催鲍威尔降息 | 环球市场</a> [9] <font color='grey'>- 16时43分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 8 条)</h3>
+            <h4>今日头条 (2 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7525719419515833895/" target="_blank" class="news-link">A股冲高回落原因是什么</a> [13]</li><li><a href="https://www.toutiao.com/trending/7524753240972230692/" target="_blank" class="news-link">观点称4000点或是A股牛市起点</a> [23]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=A%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B0%E9%9B%86%E4%BD%93%E4%B8%8A%E6%B6%A8+%E6%B2%AA%E6%8C%87%E5%BE%AE%E6%B6%A80.01%25" target="_blank" class="news-link">A股三大指数集体上涨 沪指微涨0.01%</a> [20]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_31151784" target="_blank" class="news-link">以总理称考虑在实现临时停火60天后结束加沙冲突</a> <font color='red'><strong>[4]</strong></font></li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2082717" target="_blank" class="news-link">长钱长投新规出台，险企全面实施“当年+三年+五年”周期考核，确保长钱敢投A股</a> [11]</li></ul><h4>douyin (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2163347" target="_blank" class="news-link">A股冲高回落微涨</a> <font color='red'><strong>[5]</strong></font></li></ul><h4>zhihu (2 条)</h4><ul><li><a href="https://www.zhihu.com/question/1926941448252646720" target="_blank" class="news-link">上海组织学习加密货币与稳定币，释放了何种信号？</a> [14]</li><li><a href="https://www.zhihu.com/question/1926347569853851346" target="_blank" class="news-link">武汉网友称萝卜快跑开始强行加塞，是 AI 学坏了还是人工设定的？风险有多大？</a> [16]</li></ul></div>
+        </body>
+        </html>
+        
