@@ -1,0 +1,154 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-15 04:36:13</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">汽车 自动驾驶 机器人</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2167424" target="_blank" class="news-link">亲手为机器人注入灵魂妆容</a> [10] <font color='grey'>- 04时36分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B9%8C%E5%86%9B%EF%BC%9A%E5%8F%B2%E4%B8%8A%E9%A6%96%E6%AC%A1+%E4%BF%84%E5%86%9B%E5%90%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%83%A8%E9%98%9F%E6%8A%95%E9%99%8D" target="_blank" class="news-link">乌军：史上首次 俄军向机器人部队投降</a> [17] <font color='grey'>- 04时36分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7526867708835532324/" target="_blank" class="news-link">乌军机器人打到俄军投降说明什么</a> [18] <font color='grey'>- 04时36分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31172337" target="_blank" class="news-link">圆桌｜汽车经销商呼吁淘汰落后产能，对车企满意度仍处于低位</a> [18] <font color='grey'>- 04时36分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">杭州 上海 房价</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31171042" target="_blank" class="news-link">手握王牌ACE，上海为互联网内容创作者带来无限可能</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时36分</font><br><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E4%B8%8A%E6%B5%B7%E5%A4%9A%E4%BA%BA%E6%9A%B4%E9%9B%A8%E4%B8%AD%E6%8E%92%E9%98%9F%E5%96%9D%E9%9B%B6%E4%B8%8B80%E5%BA%A6%E5%92%96%E5%95%A1%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">上海多人暴雨中排队喝零下80度咖啡</a> [11] <font color='grey'>- 04时36分</font></div><br><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2166983" target="_blank" class="news-link">网友实测侃爷上海演唱会</a> [20] <font color='grey'>- 04时36分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7526794570756001323/" target="_blank" class="news-link">博主谈侃爷上海演唱会迟到早退</a> [25] <font color='grey'>- 04时36分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">DeepSeek 梁文锋 宇树</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2167014" target="_blank" class="news-link">DeepSeek使用率真的跌了吗</a> [6] <font color='grey'>- 04时36分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31174255" target="_blank" class="news-link">宇树科技创始人王兴兴等民营企业家将亮相国新办中外记者见面会</a> [11] <font color='grey'>- 04时36分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">华为 比亚迪 茅台 万科 京东方 宁德时代 平安 三一重工 银行股</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2085034" target="_blank" class="news-link">万科：上半年实现销售收入691亿元 对业绩深表歉意</a> [8] <font color='grey'>- 04时36分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751053" target="_blank" class="news-link">下一代擎天柱要来了？马斯克：年底会有“史诗级震撼”的演示</a> [9] <font color='grey'>- 04时36分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">苹果 Apple 黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E9%BB%84%E4%BB%81%E5%8B%8B%E7%A7%B0%E4%B8%AD%E5%9B%BD%E5%86%9B%E6%96%B9%E4%B8%8D%E4%BC%9A%E4%BD%BF%E7%94%A8%E7%BE%8E%E5%9B%BD%E6%8A%80%E6%9C%AF%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">黄仁勋称中国军方不会使用美国技术</a> [26] <font color='grey'>- 04时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">英特尔 AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343467&amp;amp;topic_name=%E8%8B%B1%E7%89%B9%E5%B0%94%E6%89%BF%E8%AE%A4%E5%A4%B1%E8%B4%A5%E5%B9%B6%E8%AF%95%E5%9B%BE%E5%BC%AF%E9%81%93%E8%B6%85%E8%BD%A6" target="_blank" class="news-link">英特尔承认失败并试图弯道超车</a> [17] <font color='grey'>- 04时36分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">美股 纳斯达克 港股 道琼斯 指数</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750993" target="_blank" class="news-link">特朗普“周末加班”，美股开盘三大指数走低，中概股多数上涨，黄金微涨，比特币再创新高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时36分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">车祸 冲突 交通事故 军方 地震</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1927733579586179157" target="_blank" class="news-link">如何评价匈牙利总理的言论，欧洲已输掉俄乌冲突，却不敢承认？</a> [8] <font color='grey'>- 04时36分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">大涨 大跌 上市</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343480&amp;amp;topic_name=%E9%9F%A9%E5%9B%BD%E7%89%A9%E4%BB%B7%E5%A4%A7%E6%B6%A8%E9%9F%A9%E6%B0%91%E4%BC%97%E7%9B%B4%E5%91%BC%E5%90%83%E4%B8%8D%E8%B5%B7" target="_blank" class="news-link">韩国物价大涨韩民众直呼吃不起</a> [9] <font color='grey'>- 04时36分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 4 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E4%B9%8C%E5%86%9B%EF%BC%9A%E5%8F%B2%E4%B8%8A%E9%A6%96%E6%AC%A1+%E4%BF%84%E5%86%9B%E5%90%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%83%A8%E9%98%9F%E6%8A%95%E9%99%8D" target="_blank" class="news-link">乌军：史上首次 俄军向机器人部队投降</a> [17]</li></ul><h4>weibo (2 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E4%B8%8A%E6%B5%B7%E5%A4%9A%E4%BA%BA%E6%9A%B4%E9%9B%A8%E4%B8%AD%E6%8E%92%E9%98%9F%E5%96%9D%E9%9B%B6%E4%B8%8B80%E5%BA%A6%E5%92%96%E5%95%A1%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">上海多人暴雨中排队喝零下80度咖啡</a> [11]</li><li><a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E9%BB%84%E4%BB%81%E5%8B%8B%E7%A7%B0%E4%B8%AD%E5%9B%BD%E5%86%9B%E6%96%B9%E4%B8%8D%E4%BC%9A%E4%BD%BF%E7%94%A8%E7%BE%8E%E5%9B%BD%E6%8A%80%E6%9C%AF%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">黄仁勋称中国军方不会使用美国技术</a> [26]</li></ul><h4>douyin (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2166983" target="_blank" class="news-link">网友实测侃爷上海演唱会</a> [20]</li></ul></div>
+        </body>
+        </html>
+        
