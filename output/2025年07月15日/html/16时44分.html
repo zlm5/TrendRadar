@@ -1,0 +1,138 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-15 16:44:57</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">苹果 Apple 黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.75%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1928405081889404837" target="_blank" class="news-link">英伟达官方确认 H20 芯片对华销售解禁，意味着什么？将产生哪些影响？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时44分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751111" target="_blank" class="news-link">黄仁勋：美国政府已批准出口许可，将开始向中国市场销售H20芯片</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时44分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BEH20%E8%8A%AF%E7%89%87%E5%AF%B9%E5%8D%8E%E8%A7%A3%E7%A6%81" target="_blank" class="news-link">英伟达H20芯片对华解禁</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时44分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31182701" target="_blank" class="news-link">黄仁勋：美国政府已批准出口许可，将开始向中国销售H20芯片</a> [6] <font color='grey'>- 16时44分</font><br><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2168382" target="_blank" class="news-link">中方回应美放松英伟达对中芯片出口</a> [7] <font color='grey'>- 16时44分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%BB%84%E4%BB%81%E5%8B%8B%EF%BC%9A%E5%B0%86%E5%90%91%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA%E9%94%80%E5%94%AEH20%E8%8A%AF%E7%89%87" target="_blank" class="news-link">黄仁勋：将向中国市场销售H20芯片</a> [13] <font color='grey'>- 16时44分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B0%86%E5%AF%B9%E5%8D%8E%E9%94%80%E5%94%AEH20%E8%8A%AF%E7%89%87" target="_blank" class="news-link">中方回应英伟达将对华销售H20芯片</a> [26] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">杭州 上海 房价</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E5%A4%9A%E4%BA%BA%E6%9A%B4%E9%9B%A8%E4%B8%AD%E6%8E%92%E9%98%9F%E5%96%9D%E9%9B%B6%E4%B8%8B80%E5%BA%A6%E5%92%96%E5%95%A1" target="_blank" class="news-link">上海多人暴雨中排队喝零下80度咖啡</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1928120490511270204" target="_blank" class="news-link">上海一求职者询问是否双休，遭 HR 辱骂「睡得像猪」、「一辈子都找不到工作」，如何看待此事？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时44分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Cos%E6%B1%89%E5%B0%BC%E6%8B%94%E5%8E%BB%E4%B8%8A%E6%B5%B7BW" target="_blank" class="news-link">Cos汉尼拔去上海BW</a> [18] <font color='grey'>- 16时44分</font><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31178179" target="_blank" class="news-link">上海推出支持互联网优质内容创作“沪九条”</a> [19] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9D%AD%E5%B7%9E%E5%9C%B0%E9%93%81%E4%B8%80%E7%94%B7%E5%AD%90%E7%88%AC%E8%BF%9B%E8%BD%A6%E5%8E%A2%E5%90%93%E8%B7%91%E4%B9%98%E5%AE%A2" target="_blank" class="news-link">杭州地铁一男子爬进车厢吓跑乘客</a> [25] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">汽车 自动驾驶 机器人</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1927727084047933690" target="_blank" class="news-link">一汽奥迪表明不会在汽车中使用消费级芯片，这背后的原因是什么？</a> [12] <font color='grey'>- 16时44分</font></div><br>[douyin] <a href="https://www.douyin.com/hot/2167424" target="_blank" class="news-link">亲手为机器人注入灵魂妆容</a> [13] <font color='grey'>- 16时44分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E9%A6%96%E4%BE%8B+%E6%B7%B1%E5%9C%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%90%AD%E5%9C%B0%E9%93%81%E9%80%81%E8%B4%A7" target="_blank" class="news-link">全球首例 深圳机器人搭地铁送货</a> [16] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">大涨 大跌 上市</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2085463" target="_blank" class="news-link">【午报】沪指半日跌近1%，全市场超4600股下跌，算力硬件股逆势大涨</a> [11] <font color='grey'>- 16时44分</font></div><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343480&amp;amp;topic_name=%E9%9F%A9%E5%9B%BD%E7%89%A9%E4%BB%B7%E5%A4%A7%E6%B6%A8%E9%9F%A9%E6%B0%91%E4%BC%97%E7%9B%B4%E5%91%BC%E5%90%83%E4%B8%8D%E8%B5%B7" target="_blank" class="news-link">韩国物价大涨韩民众直呼吃不起</a> [20] <font color='grey'>- 16时44分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">比特币 btc eth sol bnb</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8l0hMmJrzl1" target="_blank" class="news-link">乌民众联系俄军派无人机炸毁征兵办，主动提供坐标用比特币付钱</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时44分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750993" target="_blank" class="news-link">投资者静待周二通胀数据，标普勉强收涨，比特币、白银冲高回落，原油跌超2%</a> [7] <font color='grey'>- 16时44分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751053" target="_blank" class="news-link">下一代擎天柱要来了？马斯克：年底会有“史诗级震撼”的演示</a> [10] <font color='grey'>- 16时44分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">ai 人工智能 A股</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E5%AE%8B%E4%B8%B9%E4%B8%B9%E7%89%88%E7%BE%8E%E7%BE%8E%E6%A1%91%E5%86%85" target="_blank" class="news-link">AI宋丹丹版美美桑内</a> [19] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">车祸 冲突 交通事故 军方 地震</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7527130487744331817/" target="_blank" class="news-link">牧民因游客在自家草场露营起冲突</a> [11] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 13 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7527130487744331817/" target="_blank" class="news-link">牧民因游客在自家草场露营起冲突</a> [11]</li></ul><h4>百度热搜 (4 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E5%A4%9A%E4%BA%BA%E6%9A%B4%E9%9B%A8%E4%B8%AD%E6%8E%92%E9%98%9F%E5%96%9D%E9%9B%B6%E4%B8%8B80%E5%BA%A6%E5%92%96%E5%95%A1" target="_blank" class="news-link">上海多人暴雨中排队喝零下80度咖啡</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E9%A6%96%E4%BE%8B+%E6%B7%B1%E5%9C%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%90%AD%E5%9C%B0%E9%93%81%E9%80%81%E8%B4%A7" target="_blank" class="news-link">全球首例 深圳机器人搭地铁送货</a> [16]</li><li><a href="https://www.baidu.com/s?wd=%E6%9D%AD%E5%B7%9E%E5%9C%B0%E9%93%81%E4%B8%80%E7%94%B7%E5%AD%90%E7%88%AC%E8%BF%9B%E8%BD%A6%E5%8E%A2%E5%90%93%E8%B7%91%E4%B9%98%E5%AE%A2" target="_blank" class="news-link">杭州地铁一男子爬进车厢吓跑乘客</a> [25]</li><li><a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B0%86%E5%AF%B9%E5%8D%8E%E9%94%80%E5%94%AEH20%E8%8A%AF%E7%89%87" target="_blank" class="news-link">中方回应英伟达将对华销售H20芯片</a> [26]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_31178179" target="_blank" class="news-link">上海推出支持互联网优质内容创作“沪九条”</a> [19]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=AI%E5%AE%8B%E4%B8%B9%E4%B8%B9%E7%89%88%E7%BE%8E%E7%BE%8E%E6%A1%91%E5%86%85" target="_blank" class="news-link">AI宋丹丹版美美桑内</a> [19]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2085463" target="_blank" class="news-link">【午报】沪指半日跌近1%，全市场超4600股下跌，算力硬件股逆势大涨</a> [11]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://v.ifeng.com/c/8l0hMmJrzl1" target="_blank" class="news-link">乌民众联系俄军派无人机炸毁征兵办，主动提供坐标用比特币付钱</a> <font color='red'><strong>[5]</strong></font></li></ul><h4>douyin (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2168382" target="_blank" class="news-link">中方回应美放松英伟达对中芯片出口</a> [7]</li></ul><h4>zhihu (3 条)</h4><ul><li><a href="https://www.zhihu.com/question/1928405081889404837" target="_blank" class="news-link">英伟达官方确认 H20 芯片对华销售解禁，意味着什么？将产生哪些影响？</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://www.zhihu.com/question/1928120490511270204" target="_blank" class="news-link">上海一求职者询问是否双休，遭 HR 辱骂「睡得像猪」、「一辈子都找不到工作」，如何看待此事？</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://www.zhihu.com/question/1927727084047933690" target="_blank" class="news-link">一汽奥迪表明不会在汽车中使用消费级芯片，这背后的原因是什么？</a> [12]</li></ul></div>
+        </body>
+        </html>
+        
