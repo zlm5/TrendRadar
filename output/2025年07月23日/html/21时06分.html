@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-23 21:06:05</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">杭州 上海 房价</td>
+                    <td class="count">14</td>
+                    <td class="percentage">5.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343703&amp;amp;topic_name=%E6%9D%AD%E5%B7%9E%E7%B2%AA%E6%B0%B4%E8%B0%83%E6%9F%A5%E7%BB%93%E6%9E%9C%E5%85%AC%E5%B8%83%3A7%E6%9C%88%E6%B0%B4%E8%B4%B9%E5%85%A8%E5%85%8D" target="_blank" class="news-link">杭州粪水调查结果公布:7月水费全免</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9D%AD%E5%B7%9E%E8%87%AA%E6%9D%A5%E6%B0%B4%E4%BA%8B%E4%BB%B67%E4%BA%BA%E8%A2%AB%E9%97%AE%E8%B4%A3" target="_blank" class="news-link">杭州自来水事件7人被问责</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2178108" target="_blank" class="news-link">杭州自来水异味7人被问责</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1931411610083227373" target="_blank" class="news-link">官方通报杭州余杭自来水异味调查情况，7 人被问责，受影响用户 7 月水费全免，哪些信息值得关注？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2178099" target="_blank" class="news-link">杭州自来水异味调查结果公布</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时06分</font></div><br>[zhihu] <a href="https://www.zhihu.com/question/1930940756496974726" target="_blank" class="news-link">杭州多家俄罗斯商品馆开业不到一年就闭店，为何在如此短时间内，俄货热潮就已经退去？闭店的主要原因是什么？</a> [6] <font color='grey'>- 21时06分</font><br><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E5%B8%82%E7%9B%91%E5%B1%80%E5%9B%9E%E5%BA%94%E4%B8%8A%E6%B5%B7%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97%E5%8F%AF%E4%B9%90%E5%8D%9650%E5%85%83%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">市监局回应上海和平饭店可乐卖50元</a> [10] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9D%AD%E5%B7%9E%E8%87%AA%E6%9D%A5%E6%B0%B4%E5%8F%91%E8%87%AD%E4%BA%8B%E4%BB%B67%E4%BA%BA%E8%A2%AB%E9%97%AE%E8%B4%A3" target="_blank" class="news-link">杭州自来水发臭事件7人被问责</a> [13] <font color='grey'>- 21时06分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2093478" target="_blank" class="news-link">时隔5年 任正非再次与上海交大校长会面</a> [13] <font color='grey'>- 21时06分</font><br><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2178129" target="_blank" class="news-link">杭州自来水发黄发浑原因</a> [15] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7530186940553891347/" target="_blank" class="news-link">你觉得下半年国内房价的走向如何</a> [17] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31240722" target="_blank" class="news-link">杭州通报余杭区部分小区供水异常调查情况</a> [20] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B8%82%E7%9B%91%E5%B1%80%E5%9B%9E%E5%BA%94%E4%B8%8A%E6%B5%B7%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97%E5%8F%AF%E4%B9%90%E5%8D%9650%E5%85%83" target="_blank" class="news-link">市监局回应上海和平饭店可乐卖50元</a> [22] <font color='grey'>- 21时06分</font></div><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343651&amp;amp;topic_name=%E6%9D%AD%E5%B7%9E%E7%B2%AA%E6%B0%B4%E6%98%AF%E5%81%87%E7%9A%84%EF%BC%8C%E9%80%A0%E8%B0%A3%E8%80%85%E8%A2%AB%E5%88%91%E6%8B%98" target="_blank" class="news-link">杭州粪水是假的，造谣者被刑拘</a> [30] <font color='grey'>- 21时06分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能 A股</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3751696" target="_blank" class="news-link">就在今晚，特朗普将宣布《AI行动计划》，“以胡萝卜为主，而非大棒”？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时06分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751687" target="_blank" class="news-link">A股午后回落，沪指一度站上3600点，雅江电站概念股分化，恒科指涨超2%，腾讯创新高，焦煤涨11%，国债跌</a> [9] <font color='grey'>- 21时06分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2094003" target="_blank" class="news-link">连续2日百亿“扫货”！融资客加速增持A股，三大板块加仓明显，这些股控盘比超一成</a> [12] <font color='grey'>- 21时06分</font></div><br>[weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%E4%BB%85%E9%80%80%E6%AC%BE%20AI%E5%9B%BE&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">仅退款 AI图</a> [24] <font color='grey'>- 21时06分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">汽车 自动驾驶 机器人</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751670" target="_blank" class="news-link">日本“投降”？特朗普称“美日达成协议，日本接受15%税率，开放汽车、大米市场”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时06分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2094034" target="_blank" class="news-link">摩根士丹利：中国下半年将掀起“人形机器人热潮” 未来行业优势将愈发扩大</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1930703817709712632" target="_blank" class="news-link">现代汽车购入小米 SU7 并部署在总部和研究所，这背后的原因是什么？</a> [7] <font color='grey'>- 21时06分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%89%E8%8F%B1%E6%B1%BD%E8%BD%A6%E5%BD%BB%E5%BA%95%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD" target="_blank" class="news-link">三菱汽车彻底退出中国</a> [12] <font color='grey'>- 21时06分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">华为 比亚迪 茅台 万科 京东方 宁德时代 平安 三一重工 银行股</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B73%E5%85%83%E9%9D%A2%E9%A6%86%E8%8C%85%E5%8F%B0%E8%AE%BA%E6%9D%AF%E5%8D%96" target="_blank" class="news-link">上海3元面馆茅台论杯卖</a> [9] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2177840" target="_blank" class="news-link">华为Pura 80真机测评</a> [24] <font color='grey'>- 21时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">美股 纳斯达克 港股 道琼斯 指数</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2093596" target="_blank" class="news-link">“弱美元”成美股财报季最大依仗！一文读懂：哪些股票受益最多？</a> [9] <font color='grey'>- 21时06分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2094008" target="_blank" class="news-link">【数据看盘】多只科创板指数ETF成交额大增 三家机构联手甩卖中国电建</a> [11] <font color='grey'>- 21时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">车祸 冲突 交通事故 军方 地震</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31238782" target="_blank" class="news-link">四川警方通报飞机上乘客打架：因聊天声音引冲突，3人被行拘</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时06分</font><br>[douyin] <a href="https://www.douyin.com/hot/2177362" target="_blank" class="news-link">荷兰军方借中国施压澳增军费</a> [21] <font color='grey'>- 21时06分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">芯片 半导体 光刻机 科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751615" target="_blank" class="news-link">Meme股“集体暴动”，科技股受挫拖累纳指，国内双焦夜盘继续暴涨，黄金重回3400美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时06分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 18 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7530186940553891347/" target="_blank" class="news-link">你觉得下半年国内房价的走向如何</a> [17]</li></ul><h4>百度热搜 (3 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B73%E5%85%83%E9%9D%A2%E9%A6%86%E8%8C%85%E5%8F%B0%E8%AE%BA%E6%9D%AF%E5%8D%96" target="_blank" class="news-link">上海3元面馆茅台论杯卖</a> [9]</li><li><a href="https://www.baidu.com/s?wd=%E6%9D%AD%E5%B7%9E%E8%87%AA%E6%9D%A5%E6%B0%B4%E5%8F%91%E8%87%AD%E4%BA%8B%E4%BB%B67%E4%BA%BA%E8%A2%AB%E9%97%AE%E8%B4%A3" target="_blank" class="news-link">杭州自来水发臭事件7人被问责</a> [13]</li><li><a href="https://www.baidu.com/s?wd=%E5%B8%82%E7%9B%91%E5%B1%80%E5%9B%9E%E5%BA%94%E4%B8%8A%E6%B5%B7%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97%E5%8F%AF%E4%B9%90%E5%8D%9650%E5%85%83" target="_blank" class="news-link">市监局回应上海和平饭店可乐卖50元</a> [22]</li></ul><h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3751696" target="_blank" class="news-link">就在今晚，特朗普将宣布《AI行动计划》，“以胡萝卜为主，而非大棒”？</a> <font color='red'><strong>[5]</strong></font></li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_31240722" target="_blank" class="news-link">杭州通报余杭区部分小区供水异常调查情况</a> [20]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E6%9D%AD%E5%B7%9E%E8%87%AA%E6%9D%A5%E6%B0%B4%E4%BA%8B%E4%BB%B67%E4%BA%BA%E8%A2%AB%E9%97%AE%E8%B4%A3" target="_blank" class="news-link">杭州自来水事件7人被问责</a> <font color='red'><strong>[4]</strong></font></li></ul><h4>财联社热门 (3 条)</h4><ul><li><a href="https://www.cls.cn/detail/2094034" target="_blank" class="news-link">摩根士丹利：中国下半年将掀起“人形机器人热潮” 未来行业优势将愈发扩大</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.cls.cn/detail/2094008" target="_blank" class="news-link">【数据看盘】多只科创板指数ETF成交额大增 三家机构联手甩卖中国电建</a> [11]</li><li><a href="https://www.cls.cn/detail/2094003" target="_blank" class="news-link">连续2日百亿“扫货”！融资客加速增持A股，三大板块加仓明显，这些股控盘比超一成</a> [12]</li></ul><h4>tieba (1 条)</h4><ul><li><a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343703&amp;amp;topic_name=%E6%9D%AD%E5%B7%9E%E7%B2%AA%E6%B0%B4%E8%B0%83%E6%9F%A5%E7%BB%93%E6%9E%9C%E5%85%AC%E5%B8%83%3A7%E6%9C%88%E6%B0%B4%E8%B4%B9%E5%85%A8%E5%85%8D" target="_blank" class="news-link">杭州粪水调查结果公布:7月水费全免</a> <font color='red'><strong>[1]</strong></font></li></ul><h4>weibo (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E5%B8%82%E7%9B%91%E5%B1%80%E5%9B%9E%E5%BA%94%E4%B8%8A%E6%B5%B7%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97%E5%8F%AF%E4%B9%90%E5%8D%9650%E5%85%83%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">市监局回应上海和平饭店可乐卖50元</a> [10]</li></ul><h4>douyin (4 条)</h4><ul><li><a href="https://www.douyin.com/hot/2178108" target="_blank" class="news-link">杭州自来水异味7人被问责</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://www.douyin.com/hot/2178099" target="_blank" class="news-link">杭州自来水异味调查结果公布</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.douyin.com/hot/2178129" target="_blank" class="news-link">杭州自来水发黄发浑原因</a> [15]</li><li><a href="https://www.douyin.com/hot/2177840" target="_blank" class="news-link">华为Pura 80真机测评</a> [24]</li></ul><h4>zhihu (2 条)</h4><ul><li><a href="https://www.zhihu.com/question/1931411610083227373" target="_blank" class="news-link">官方通报杭州余杭自来水异味调查情况，7 人被问责，受影响用户 7 月水费全免，哪些信息值得关注？</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://www.zhihu.com/question/1930703817709712632" target="_blank" class="news-link">现代汽车购入小米 SU7 并部署在总部和研究所，这背后的原因是什么？</a> [7]</li></ul></div>
+        </body>
+        </html>
+        
