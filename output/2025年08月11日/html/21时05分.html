@@ -1,0 +1,162 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-08-11 21:05:45</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">华为 比亚迪 茅台 万科 京东方 宁德时代 平安 三一重工 银行股</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753046" target="_blank" class="news-link">宁德时代枧下窝锂矿停产，碳酸锂迎来反转行情？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时05分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3753045" target="_blank" class="news-link">宁德时代宜春锂云母矿准时停产，有人深夜上山蹲守！</a> [6] <font color='grey'>- 21时05分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2111613" target="_blank" class="news-link">独家|拟不超过30%入股华望 广汽埃安与华为“再续前缘”</a> [8] <font color='grey'>- 21时05分</font><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1938149421545158358" target="_blank" class="news-link">宁德时代旗下大型锂云母矿停产，对新能源行业影响多大，利好哪些上市公司，资源税改会引发哪些资本重构？</a> [9] <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2111841" target="_blank" class="news-link">万亿巨头继续新高！融资余额创11年新低，银行股息率低于白酒，这些方向依旧较高</a> [13] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">车祸 冲突 交通事故 军方 地震</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7537107580355870747/" target="_blank" class="news-link">编造涉“地震”虚假灾情？网警查处</a> [6] <font color='grey'>- 21时05分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%87%80%E7%BD%91%EF%BC%9A%E7%BC%96%E9%80%A0%E5%9C%B0%E9%9C%87%E8%99%9A%E5%81%87%E7%81%BE%E6%83%85%EF%BC%9F%E7%BD%91%E8%AD%A6%E6%9F%A5%E5%A4%84" target="_blank" class="news-link">净网：编造地震虚假灾情？网警查处</a> [6] <font color='grey'>- 21时05分</font><br>[douyin] <a href="https://www.douyin.com/hot/2199342" target="_blank" class="news-link">净网：网警查处编造涉地震谣言案</a> [6] <font color='grey'>- 21时05分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31369910" target="_blank" class="news-link">视频丨土耳其地震已致1死29伤，十余栋建筑被毁</a> [11] <font color='grey'>- 21时05分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344128&amp;amp;topic_name=%E5%92%8C%E9%9B%86%E7%BE%8E%E8%B5%B7%E5%86%B2%E7%AA%81%EF%BC%9F%E6%BB%A1%E5%88%86%E6%93%8D%E4%BD%9C%E6%9D%A5%E4%BA%86" target="_blank" class="news-link">和集美起冲突？满分操作来了</a> [16] <font color='grey'>- 21时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能 A股</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2097911" target="_blank" class="news-link">云天励飞战略聚焦AI芯片，三大核心布局押注推理蓝海</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时05分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3753073" target="_blank" class="news-link">“著名反指”美银调查：机构对经济和AI更乐观，对中国更乐观，加密货币和黄金持仓很低</a> [8] <font color='grey'>- 21时05分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%94%A8AI%E5%AE%9E%E7%8E%B0%E5%BE%A1%E5%89%91%E9%A3%9E%E8%A1%8C" target="_blank" class="news-link">用AI实现御剑飞行</a> [21] <font color='grey'>- 21时05分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7536387953778556937/" target="_blank" class="news-link">A股公司又现炒股热</a> [22] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">苹果 Apple 黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753047" target="_blank" class="news-link">报道称：英伟达和AMD上缴15%的中国AI芯片收入，换取特朗普“放行”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时05分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31370247" target="_blank" class="news-link">英伟达再回应H20芯片“后门”风险</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时05分</font><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ljen4P5G3Y" target="_blank" class="news-link">美国被曝向英伟达和AMD收“保护费”，专家：不提国家安全了？</a> [12] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">强奸</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A9%9A%E5%86%85%E5%BC%BA%E5%A5%B8%E6%A1%88%E7%94%B7%E6%96%B9%E6%AF%8D%E4%BA%B2%E8%B7%AA%E6%B1%82%E5%A5%B3%E6%96%B9%E8%B0%85%E8%A7%A3" target="_blank" class="news-link">婚内强奸案男方母亲跪求女方谅解</a> [17] <font color='grey'>- 21时05分</font></div><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344137&amp;amp;topic_name=%E5%A9%9A%E5%86%85%E5%BC%BA%E5%A5%B8%E6%A1%88%E5%8F%8D%E8%BD%AC%3F%E5%A5%B3%E6%96%B9%E7%96%91%E4%BC%BC%E5%87%BA%E8%BD%A8" target="_blank" class="news-link">婚内强奸案反转?女方疑似出轨</a> [17] <font color='grey'>- 21时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">chatgpt openai 奥特曼</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2111611" target="_blank" class="news-link">OpenAI的GPT-5会否开启人工智能界的价格大战？</a> [9] <font color='grey'>- 21时05分</font></div><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344141&amp;amp;topic_name=%E5%A5%A5%E7%89%B9%E6%9B%BC%E6%80%AA%E5%85%BD%E7%82%AB%E5%8E%8B%E6%8A%91%3A%E6%AD%BB%E4%BA%86%E9%83%BD%E8%A6%81%E7%88%B1" target="_blank" class="news-link">奥特曼怪兽炫压抑:死了都要爱</a> [26] <font color='grey'>- 21时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">美股 纳斯达克 港股 道琼斯 指数</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3753052" target="_blank" class="news-link">沪指再刷年内高位，锂电股集体爆发，碳酸锂期货涨停，国债大跌，港股盘整，老铺黄金跌超5%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3753070" target="_blank" class="news-link">美股期货、欧股冲高回落，加密概念股盘前涨幅收窄、以太坊转跌，原油转涨，黄金失守3350美元</a> [10] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">杭州 上海 房价</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31370871" target="_blank" class="news-link">市民咨询“台风这几年怎么老是登陆上海”，气象研究机构答复</a> [13] <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%8C%A5%E4%BA%B5%E7%BB%A7%E5%A5%B3%E7%9A%84%E4%B8%8A%E6%B5%B7%E6%B0%91%E8%AD%A6%E4%B8%80%E5%AE%A1%E8%8E%B7%E5%88%918%E5%B9%B4" target="_blank" class="news-link">猥亵继女的上海民警一审获刑8年</a> [28] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">汽车 自动驾驶 机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1937787793104401906" target="_blank" class="news-link">知名机器人企业创始人尹荣造提议给自己发 200 万固定月薪被批，发生了什么？其薪酬要求合理吗？</a> [12] <font color='grey'>- 21时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">芯片 半导体 光刻机 科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7537267039438638634/" target="_blank" class="news-link">中美芯片博弈升级</a> [9] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">美女 女神</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2199508" target="_blank" class="news-link">秋天一起做琥珀流光美女</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时05分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 13 条)</h3>
+            <h4>今日头条 (2 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7537267039438638634/" target="_blank" class="news-link">中美芯片博弈升级</a> [9]</li><li><a href="https://www.toutiao.com/trending/7536387953778556937/" target="_blank" class="news-link">A股公司又现炒股热</a> [22]</li></ul><h4>百度热搜 (2 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E5%A9%9A%E5%86%85%E5%BC%BA%E5%A5%B8%E6%A1%88%E7%94%B7%E6%96%B9%E6%AF%8D%E4%BA%B2%E8%B7%AA%E6%B1%82%E5%A5%B3%E6%96%B9%E8%B0%85%E8%A7%A3" target="_blank" class="news-link">婚内强奸案男方母亲跪求女方谅解</a> [17]</li><li><a href="https://www.baidu.com/s?wd=%E7%8C%A5%E4%BA%B5%E7%BB%A7%E5%A5%B3%E7%9A%84%E4%B8%8A%E6%B5%B7%E6%B0%91%E8%AD%A6%E4%B8%80%E5%AE%A1%E8%8E%B7%E5%88%918%E5%B9%B4" target="_blank" class="news-link">猥亵继女的上海民警一审获刑8年</a> [28]</li></ul><h4>华尔街见闻 (4 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3753052" target="_blank" class="news-link">沪指再刷年内高位，锂电股集体爆发，碳酸锂期货涨停，国债大跌，港股盘整，老铺黄金跌超5%</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3753045" target="_blank" class="news-link">宁德时代宜春锂云母矿准时停产，有人深夜上山蹲守！</a> [6]</li><li><a href="https://wallstreetcn.com/articles/3753073" target="_blank" class="news-link">“著名反指”美银调查：机构对经济和AI更乐观，对中国更乐观，加密货币和黄金持仓很低</a> [8]</li><li><a href="https://wallstreetcn.com/articles/3753070" target="_blank" class="news-link">美股期货、欧股冲高回落，加密概念股盘前涨幅收窄、以太坊转跌，原油转涨，黄金失守3350美元</a> [10]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_31370871" target="_blank" class="news-link">市民咨询“台风这几年怎么老是登陆上海”，气象研究机构答复</a> [13]</li></ul><h4>财联社热门 (2 条)</h4><ul><li><a href="https://www.cls.cn/detail/2111611" target="_blank" class="news-link">OpenAI的GPT-5会否开启人工智能界的价格大战？</a> [9]</li><li><a href="https://www.cls.cn/detail/2111841" target="_blank" class="news-link">万亿巨头继续新高！融资余额创11年新低，银行股息率低于白酒，这些方向依旧较高</a> [13]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8ljen4P5G3Y" target="_blank" class="news-link">美国被曝向英伟达和AMD收“保护费”，专家：不提国家安全了？</a> [12]</li></ul><h4>zhihu (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1938149421545158358" target="_blank" class="news-link">宁德时代旗下大型锂云母矿停产，对新能源行业影响多大，利好哪些上市公司，资源税改会引发哪些资本重构？</a> [9]</li></ul></div>
+        </body>
+        </html>
+        
