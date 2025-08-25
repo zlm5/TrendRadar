@@ -1,0 +1,146 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-08-25 21:00:47</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能 A股</td>
+                    <td class="count">8</td>
+                    <td class="percentage">3.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542422843259096618/" target="_blank" class="news-link">A股成交额超3万亿元意味着什么</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时00分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754019" target="_blank" class="news-link">A股放量大涨，沪指逼近3900点，两市成交超3万亿历史第二，寒武纪再涨超10%，国债、商品全线大涨</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时00分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E7%9C%8BA%E8%82%A1%E6%88%90%E4%BA%A4%E9%87%8F%E7%A0%B43%E4%B8%87%E4%BA%BF" target="_blank" class="news-link">如何看A股成交量破3万亿</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时00分</font></div><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31471509" target="_blank" class="news-link">A股跳空放量大涨，两市成交超3.1万亿元创历史次高：房地产行业涨幅靠前</a> [6] <font color='grey'>- 21时00分</font><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1943240613911820133" target="_blank" class="news-link">高盛将寒武纪目标价上调 50% 至 1835 元，如何看待 AI 芯片国产替代的空间？</a> [6] <font color='grey'>- 21时00分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754007" target="_blank" class="news-link">主动外资去年10月以来首度流入A股</a> [7] <font color='grey'>- 21时00分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2124969" target="_blank" class="news-link">【焦点复盘】AI硬件、资源股双轮驱动，三大指数跳空中阳续创阶段新高，两市成交额单日放量近6000亿</a> [7] <font color='grey'>- 21时00分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542295674365460521/" target="_blank" class="news-link">沪市A股主力资金减仓前十</a> [25] <font color='grey'>- 21时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">杭州 上海 房价</td>
+                    <td class="count">8</td>
+                    <td class="percentage">3.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2124989" target="_blank" class="news-link">上海出台楼市新政为市场注入强心针 深圳跟进预期走强</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时00分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754029" target="_blank" class="news-link">上海发布楼市“沪六条”：外环外符合条件不限套数，单身买房视同家庭，住房公积金可“付首付”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时00分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E9%81%AD%E9%81%87%E5%BC%BA%E5%AF%B9%E6%B5%81%E5%B1%80%E5%9C%B0%E5%8D%8A%E5%B0%8F%E6%97%B6%E9%99%8D%E6%B8%A913%E2%84%83" target="_blank" class="news-link">上海遭遇强对流局地半小时降温13℃</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时00分</font></div><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31470732" target="_blank" class="news-link">上海调整房地产政策：外环外符合条件不限套数、单身购房视同家庭</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时00分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2124826" target="_blank" class="news-link">央行上海总部：上海商贷利率不再区分首套和二套住房</a> [8] <font color='grey'>- 21时00分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%BF%9140%E2%84%83%E9%AB%98%E6%B8%A9%E7%9A%84%E6%9D%AD%E5%B7%9E%E7%AA%81%E9%99%8D%E5%86%B0%E9%9B%B9" target="_blank" class="news-link">近40℃高温的杭州突降冰雹</a> [10] <font color='grey'>- 21时00分</font></div><br>[zhihu] <a href="https://www.zhihu.com/question/1942921135395181532" target="_blank" class="news-link">上海一豪宅 66 套房源一小时售罄，劲销 48 亿，单价近 20 万元每平，为什么抢手？有升值潜力吗？</a> [11] <font color='grey'>- 21时00分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%EF%BC%9A%E7%AC%A6%E5%90%88%E6%9D%A1%E4%BB%B6%E5%AE%B6%E5%BA%AD%E5%A4%96%E7%8E%AF%E5%A4%96%E4%B9%B0%E6%88%BF%E4%B8%8D%E9%99%90%E8%B4%AD" target="_blank" class="news-link">上海：符合条件家庭外环外买房不限购</a> [19] <font color='grey'>- 21时00分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">苹果 Apple 黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8m6H9aUA5pV" target="_blank" class="news-link">“既然如此，英伟达应该向中国缴纳15%的安全保证金”</a> [8] <font color='grey'>- 21时00分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754006" target="_blank" class="news-link">有史以来首次！苹果计划“连续三年大改版”，陆续推出折叠机、曲面屏等新机型</a> [9] <font color='grey'>- 21时00分</font></div><br>[zhihu] <a href="https://www.zhihu.com/question/1938538580961108118" target="_blank" class="news-link">苹果即将推出的廉价版 MacBook 采用 A18 Pro 处理器，这将对市场带来哪些影响？</a> [13] <font color='grey'>- 21时00分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美股 纳斯达克 港股 道琼斯 指数</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2124652" target="_blank" class="news-link">一张图：当美联储暂停许久后重启降息 美股会发生什么？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时00分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2124999" target="_blank" class="news-link">年内涨幅超北证50！科创200领跑宽基指数，科创系ETF份额则增少降多</a> [10] <font color='grey'>- 21时00分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2125213" target="_blank" class="news-link">美股三大期指集体走低 阿里、蔚来等中概股逆市上扬 | 今夜看点</a> [11] <font color='grey'>- 21时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">大涨 大跌 上市</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542477651915705865/" target="_blank" class="news-link">新款问界M7将于9月23日上市</a> [20] <font color='grey'>- 21时00分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7541643688897118271/" target="_blank" class="news-link">问界M8纯电版正式上市</a> [28] <font color='grey'>- 21时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">美女 女神</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9D%8E%E4%B8%B9%E5%B0%BC%E5%B0%94%E7%8B%BC%E4%B8%8E%E7%BE%8E%E5%A5%B34K%E7%9B%B4%E6%8B%8D" target="_blank" class="news-link">李丹尼尔狼与美女4K直拍</a> [11] <font color='grey'>- 21时00分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9D%8E%E6%B2%B3%E6%B0%91%E7%8B%BC%E4%B8%8E%E7%BE%8E%E5%A5%B34K%E7%9B%B4%E6%8B%8D" target="_blank" class="news-link">李河民狼与美女4K直拍</a> [12] <font color='grey'>- 21时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754022" target="_blank" class="news-link">马斯克成立新公司「巨硬」：用AI把微软产品重做一遍</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时00分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Github%E5%B0%86%E5%B9%B6%E5%85%A5%E5%BE%AE%E8%BD%AFAI%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88" target="_blank" class="news-link">Github将并入微软AI意味着什么</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时00分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">芯片 半导体 光刻机 科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31470133" target="_blank" class="news-link">大连科技学院通报工资停发：已全部解决，将按计划如期开学</a> [9] <font color='grey'>- 21时00分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 15 条)</h3>
+            <h4>今日头条 (4 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7542422843259096618/" target="_blank" class="news-link">A股成交额超3万亿元意味着什么</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://www.toutiao.com/trending/7542477651915705865/" target="_blank" class="news-link">新款问界M7将于9月23日上市</a> [20]</li><li><a href="https://www.toutiao.com/trending/7542295674365460521/" target="_blank" class="news-link">沪市A股主力资金减仓前十</a> [25]</li><li><a href="https://www.toutiao.com/trending/7541643688897118271/" target="_blank" class="news-link">问界M8纯电版正式上市</a> [28]</li></ul><h4>百度热搜 (2 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E9%81%AD%E9%81%87%E5%BC%BA%E5%AF%B9%E6%B5%81%E5%B1%80%E5%9C%B0%E5%8D%8A%E5%B0%8F%E6%97%B6%E9%99%8D%E6%B8%A913%E2%84%83" target="_blank" class="news-link">上海遭遇强对流局地半小时降温13℃</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.baidu.com/s?wd=%E8%BF%9140%E2%84%83%E9%AB%98%E6%B8%A9%E7%9A%84%E6%9D%AD%E5%B7%9E%E7%AA%81%E9%99%8D%E5%86%B0%E9%9B%B9" target="_blank" class="news-link">近40℃高温的杭州突降冰雹</a> [10]</li></ul><h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3754006" target="_blank" class="news-link">有史以来首次！苹果计划“连续三年大改版”，陆续推出折叠机、曲面屏等新机型</a> [9]</li></ul><h4>bilibili 热搜 (2 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E7%9C%8BA%E8%82%A1%E6%88%90%E4%BA%A4%E9%87%8F%E7%A0%B43%E4%B8%87%E4%BA%BF" target="_blank" class="news-link">如何看A股成交量破3万亿</a> <font color='red'><strong>[3]</strong></font></li><li><a href="https://search.bilibili.com/all?keyword=%E6%9D%8E%E6%B2%B3%E6%B0%91%E7%8B%BC%E4%B8%8E%E7%BE%8E%E5%A5%B34K%E7%9B%B4%E6%8B%8D" target="_blank" class="news-link">李河民狼与美女4K直拍</a> [12]</li></ul><h4>财联社热门 (5 条)</h4><ul><li><a href="https://www.cls.cn/detail/2124989" target="_blank" class="news-link">上海出台楼市新政为市场注入强心针 深圳跟进预期走强</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://www.cls.cn/detail/2124969" target="_blank" class="news-link">【焦点复盘】AI硬件、资源股双轮驱动，三大指数跳空中阳续创阶段新高，两市成交额单日放量近6000亿</a> [7]</li><li><a href="https://www.cls.cn/detail/2124826" target="_blank" class="news-link">央行上海总部：上海商贷利率不再区分首套和二套住房</a> [8]</li><li><a href="https://www.cls.cn/detail/2124999" target="_blank" class="news-link">年内涨幅超北证50！科创200领跑宽基指数，科创系ETF份额则增少降多</a> [10]</li><li><a href="https://www.cls.cn/detail/2125213" target="_blank" class="news-link">美股三大期指集体走低 阿里、蔚来等中概股逆市上扬 | 今夜看点</a> [11]</li></ul><h4>zhihu (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1943240613911820133" target="_blank" class="news-link">高盛将寒武纪目标价上调 50% 至 1835 元，如何看待 AI 芯片国产替代的空间？</a> [6]</li></ul></div>
+        </body>
+        </html>
+        
