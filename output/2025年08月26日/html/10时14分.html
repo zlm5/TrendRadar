@@ -1,0 +1,178 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-08-26 10:14:26</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能 A股</td>
+                    <td class="count">8</td>
+                    <td class="percentage">3.14%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754019" target="_blank" class="news-link">A股放量大涨，沪指逼近3900点，两市成交超3万亿历史第二，寒武纪再涨超10%，国债、商品全线大涨</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时14分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31471509" target="_blank" class="news-link">A股跳空放量大涨，两市成交超3.1万亿元创历史次高：房地产行业涨幅靠前</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时14分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2125567" target="_blank" class="news-link">突破3万亿后，A股后市如何走？“慢牛”驱动力浮现</a> [6] <font color='grey'>- 10时14分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E7%9C%8BA%E8%82%A1%E6%88%90%E4%BA%A4%E9%87%8F%E7%A0%B43%E4%B8%87%E4%BA%BF" target="_blank" class="news-link">如何看A股成交量破3万亿</a> [9] <font color='grey'>- 10时14分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2125384" target="_blank" class="news-link">马来西亚发布首款人工智能芯片 进军全球前沿科技赛道</a> [9] <font color='grey'>- 10时14分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344501&amp;amp;topic_name=A%E8%82%A1%E7%81%AB%E7%88%86%21%E5%8F%B2%E4%B8%8A%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%88%90%E4%BA%A4%E9%A2%9D%E7%A0%B43%E4%B8%87%E4%BA%BF" target="_blank" class="news-link">A股火爆!史上第二次成交额破3万亿</a> [13] <font color='grey'>- 10时14分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=A%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B0%E9%9B%86%E4%BD%93%E4%BD%8E%E5%BC%80" target="_blank" class="news-link">A股三大指数集体低开</a> [15] <font color='grey'>- 10时14分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542662612970901011/" target="_blank" class="news-link">A股大涨后追还是不追</a> [26] <font color='grey'>- 10时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">杭州 上海 房价</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754029" target="_blank" class="news-link">上海发布楼市“沪六条”：外环外符合条件不限套数，单身买房视同家庭，住房公积金可“付首付”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时14分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31470732" target="_blank" class="news-link">上海调整房地产政策：外环外符合条件不限套数、单身购房视同家庭</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时14分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31471335" target="_blank" class="news-link">解读丨上海楼市新政“组合拳”：外环外限购松绑释放购买力，金九银十成色可期</a> [9] <font color='grey'>- 10时14分</font><br>[douyin] <a href="https://www.douyin.com/hot/2214684" target="_blank" class="news-link">上海调整房地产政策措施</a> [10] <font color='grey'>- 10时14分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7542242690549743652/" target="_blank" class="news-link">上海解除外环外购房限购</a> [15] <font color='grey'>- 10时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">DeepSeek 梁文锋 宇树</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1942934856603505597" target="_blank" class="news-link">如何评价 DeepSeek V3.1 模型输出 Token 会被随机替换为「极」？</a> [7] <font color='grey'>- 10时14分</font><br><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E8%A2%AB%E8%B5%B7%E8%AF%89%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D28%26filter_type%3Drealtimehot%26c_type%3D31%26realpos%3D27%26q%3D%2523%25E5%25AE%2587%25E6%25A0%2591%25E7%25A7%2591%25E6%258A%2580%25E8%25A2%25AB%25E8%25B5%25B7%25E8%25AF%2589%2523%26cate%3D5001%26dgr%3D0%26stream_entry_id%3D31%26band_rank%3D27%26lcate%3D5001%26flag%3D1%26display_time%3D1756174136%26pre_seqid%3D1756174136388052359955" target="_blank" class="news-link">宇树科技被起诉</a> [27] <font color='grey'>- 10时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">华为 比亚迪 茅台 万科 京东方 宁德时代 平安 三一重工 银行股</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1943296203317047465" target="_blank" class="news-link">鸿蒙智行尚界 H5 上市即搭载华为 ADS 4，1 小时订单破 25000 台，这款车有哪些亮点？</a> [6] <font color='grey'>- 10时14分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2125469" target="_blank" class="news-link">华夏幸福半年报亏损68亿引董事会分歧 平安系董事投下反对票</a> [8] <font color='grey'>- 10时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">京东 淘宝 拼多多 美团</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754076" target="_blank" class="news-link">拼多多电话会全文：不认为这个季度利润可以持续，甘于牺牲短期利润，长期坚持反哺生态</a> [7] <font color='grey'>- 10时14分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754062" target="_blank" class="news-link">拼多多Q2营收增速放缓至7%，净利润降幅收窄至4%好于预期，营销费仅增长4.5% | 财报见闻</a> [9] <font color='grey'>- 10时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754022" target="_blank" class="news-link">马斯克成立新公司「巨硬」：用AI把微软产品重做一遍</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时14分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2125465" target="_blank" class="news-link">马斯克起诉苹果与OpenAI 英特尔发风险警告 | 环球市场</a> [13] <font color='grey'>- 10时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">苹果 Apple 黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2125471" target="_blank" class="news-link">【早报】英伟达官宣机器人“新大脑”；中办、国办发文，事关全国碳市场建设</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754094" target="_blank" class="news-link">英伟达机器人新“大脑”来了！Jetson Thor AI算力提高6.5倍，解锁物理AI实时推理</a> [6] <font color='grey'>- 10时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">美股 纳斯达克 港股 道琼斯 指数</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754043" target="_blank" class="news-link">美股反弹一日游，三大股指回落，原油四连涨，人民币一个月新高，以太坊下挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时14分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2125450" target="_blank" class="news-link">美股收盘：鲍威尔讲话余温消退 三大指数集体收跌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">美女 女神</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9D%8E%E4%B8%B9%E5%B0%BC%E5%B0%94%E7%8B%BC%E4%B8%8E%E7%BE%8E%E5%A5%B34K%E7%9B%B4%E6%8B%8D" target="_blank" class="news-link">李丹尼尔狼与美女4K直拍</a> [11] <font color='grey'>- 10时14分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9D%8E%E6%B2%B3%E6%B0%91%E7%8B%BC%E4%B8%8E%E7%BE%8E%E5%A5%B34K%E7%9B%B4%E6%8B%8D" target="_blank" class="news-link">李河民狼与美女4K直拍</a> [16] <font color='grey'>- 10时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Github%E5%B0%86%E5%B9%B6%E5%85%A5%E5%BE%AE%E8%BD%AFAI%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88" target="_blank" class="news-link">Github将并入微软AI意味着什么</a> [29] <font color='grey'>- 10时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">英特尔 AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2125441" target="_blank" class="news-link">英特尔警告：美政府入股恐构成风险 持股比例或升至15%</a> [12] <font color='grey'>- 10时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">汽车 自动驾驶 机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2125476" target="_blank" class="news-link">【数读IPO】今日1只新股申购，机器人概念添“新丁”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">车祸 冲突 交通事故 军方 地震</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2215572" target="_blank" class="news-link">西藏那曲发生4.7级地震</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时14分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 15 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7542662612970901011/" target="_blank" class="news-link">A股大涨后追还是不追</a> [26]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=A%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B0%E9%9B%86%E4%BD%93%E4%BD%8E%E5%BC%80" target="_blank" class="news-link">A股三大指数集体低开</a> [15]</li></ul><h4>华尔街见闻 (3 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3754043" target="_blank" class="news-link">美股反弹一日游，三大股指回落，原油四连涨，人民币一个月新高，以太坊下挫</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3754094" target="_blank" class="news-link">英伟达机器人新“大脑”来了！Jetson Thor AI算力提高6.5倍，解锁物理AI实时推理</a> [6]</li><li><a href="https://wallstreetcn.com/articles/3754062" target="_blank" class="news-link">拼多多Q2营收增速放缓至7%，净利润降幅收窄至4%好于预期，营销费仅增长4.5% | 财报见闻</a> [9]</li></ul><h4>财联社热门 (7 条)</h4><ul><li><a href="https://www.cls.cn/detail/2125471" target="_blank" class="news-link">【早报】英伟达官宣机器人“新大脑”；中办、国办发文，事关全国碳市场建设</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://www.cls.cn/detail/2125450" target="_blank" class="news-link">美股收盘：鲍威尔讲话余温消退 三大指数集体收跌</a> <font color='red'><strong>[2]</strong></font></li><li><a href="https://www.cls.cn/detail/2125476" target="_blank" class="news-link">【数读IPO】今日1只新股申购，机器人概念添“新丁”</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://www.cls.cn/detail/2125567" target="_blank" class="news-link">突破3万亿后，A股后市如何走？“慢牛”驱动力浮现</a> [6]</li><li><a href="https://www.cls.cn/detail/2125469" target="_blank" class="news-link">华夏幸福半年报亏损68亿引董事会分歧 平安系董事投下反对票</a> [8]</li><li><a href="https://www.cls.cn/detail/2125441" target="_blank" class="news-link">英特尔警告：美政府入股恐构成风险 持股比例或升至15%</a> [12]</li><li><a href="https://www.cls.cn/detail/2125465" target="_blank" class="news-link">马斯克起诉苹果与OpenAI 英特尔发风险警告 | 环球市场</a> [13]</li></ul><h4>weibo (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E8%A2%AB%E8%B5%B7%E8%AF%89%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D28%26filter_type%3Drealtimehot%26c_type%3D31%26realpos%3D27%26q%3D%2523%25E5%25AE%2587%25E6%25A0%2591%25E7%25A7%2591%25E6%258A%2580%25E8%25A2%25AB%25E8%25B5%25B7%25E8%25AF%2589%2523%26cate%3D5001%26dgr%3D0%26stream_entry_id%3D31%26band_rank%3D27%26lcate%3D5001%26flag%3D1%26display_time%3D1756174136%26pre_seqid%3D1756174136388052359955" target="_blank" class="news-link">宇树科技被起诉</a> [27]</li></ul><h4>douyin (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2215572" target="_blank" class="news-link">西藏那曲发生4.7级地震</a> <font color='red'><strong>[5]</strong></font></li></ul><h4>zhihu (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1943296203317047465" target="_blank" class="news-link">鸿蒙智行尚界 H5 上市即搭载华为 ADS 4，1 小时订单破 25000 台，这款车有哪些亮点？</a> [6]</li></ul></div>
+        </body>
+        </html>
+        
