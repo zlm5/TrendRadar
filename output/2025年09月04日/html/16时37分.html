@@ -1,0 +1,146 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-09-04 16:37:11</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">华为 比亚迪 茅台 万科 京东方 宁德时代 平安 三一重工 银行股</td>
+                    <td class="count">8</td>
+                    <td class="percentage">3.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754905" target="_blank" class="news-link">创业板跌超4%，寒武纪跌近15%，银行股逆势拉升、农行大涨5%总市值首超工行，国债反弹</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%8D%8E%E4%B8%BA%E5%8F%91%E5%B8%83%E4%BC%9A&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D12%26flag%3D1%26pos%3D12%26c_type%3D31%26lcate%3D5001%26band_rank%3D12%26cate%3D5001%26stream_entry_id%3D31%26q%3D%25E5%258D%258E%25E4%25B8%25BA%25E5%258F%2591%25E5%25B8%2583%25E4%25BC%259A%26dgr%3D0%26filter_type%3Drealtimehot%26display_time%3D1756974977%26pre_seqid%3D17569749775350416705017" target="_blank" class="news-link">华为发布会</a> [12] <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E6%96%B0%E6%AC%BE%E4%B8%89%E6%8A%98%E5%8F%A0%E6%89%8B%E6%9C%BA%E8%B5%B7%E5%94%AE%E4%BB%B717999%E5%85%83" target="_blank" class="news-link">华为新款三折叠手机起售价17999元</a> [15] <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2225470" target="_blank" class="news-link">华为新品发布会</a> [16] <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA%E9%A6%96%E6%AC%A1%E5%AE%98%E5%AE%A3%E9%9D%9E%E5%87%A1%E5%A4%A7%E5%B8%88%E5%93%81%E7%89%8CLOGO%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D18%26flag%3D1%26pos%3D18%26c_type%3D31%26lcate%3D5001%26band_rank%3D18%26cate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E5%258D%258E%25E4%25B8%25BA%25E9%25A6%2596%25E6%25AC%25A1%25E5%25AE%2598%25E5%25AE%25A3%25E9%259D%259E%25E5%2587%25A1%25E5%25A4%25A7%25E5%25B8%2588%25E5%2593%2581%25E7%2589%258CLOGO%2523%26dgr%3D0%26filter_type%3Drealtimehot%26display_time%3D1756974977%26pre_seqid%3D17569749775350416705017" target="_blank" class="news-link">华为首次官宣非凡大师品牌LOGO</a> [18] <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7546009002929684523/" target="_blank" class="news-link">麒麟芯片时隔4年回归华为发布会</a> [20] <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7545183907939975206/" target="_blank" class="news-link">余承东称三折叠能超越华为的只有华为</a> [23] <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7545695816191606838/" target="_blank" class="news-link">华为Mate XTs非凡大师发布</a> [26] <font color='grey'>- 16时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美股 纳斯达克 港股 道琼斯 指数</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2135374" target="_blank" class="news-link">【午报】科创50指数半日跌超5%，半导体、算力硬件股全线退潮</a> [8] <font color='grey'>- 16时37分</font></div><br>[zhihu] <a href="https://www.zhihu.com/question/1946578922608264943" target="_blank" class="news-link">九三阅兵同一时间美国五角大楼附近披萨订单激增，「披萨指数」的波动是巧合吗？</a> [17] <font color='grey'>- 16时37分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344741&amp;amp;topic_name=%E5%A4%96%E5%8D%96%E6%8C%87%E6%95%B0%E9%A3%99%E5%8D%87%21%E4%BA%94%E8%A7%92%E5%A4%A7%E6%A5%BC%E7%B9%81%E5%BF%99%E4%B8%80%E5%A4%9C" target="_blank" class="news-link">外卖指数飙升!五角大楼繁忙一夜</a> [20] <font color='grey'>- 16时37分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能 A股</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2135502" target="_blank" class="news-link">两部门：加强CPU、高性能人工智能服务器、软硬件协同等攻关力度 开展人工智能芯片与大模型适应性测试</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754903" target="_blank" class="news-link">张忆东：7月以来港股利空已接近尾声，A股和港股都将走出超级长牛</a> [9] <font color='grey'>- 16时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">车祸 冲突 交通事故 军方 地震</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mN10v114bv" target="_blank" class="news-link">美防长谈九三阅兵：美国不寻求和中国发生冲突</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时37分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7546062430468591142/" target="_blank" class="news-link">美防长：美国不寻求和中国发生冲突</a> [16] <font color='grey'>- 16时37分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2135315" target="_blank" class="news-link">要和好了？特朗普称赞马斯克“80%是个超级天才” 呼吁其回归共和党</a> [13] <font color='grey'>- 16时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">苹果 Apple 黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2135317" target="_blank" class="news-link">AI版Siri虽迟但到？苹果或联手谷歌Gemini 升级iPhone搜索功能</a> [7] <font color='grey'>- 16时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3754842" target="_blank" class="news-link">疲软就业数据强化降息预期，科技巨头带动纳指反弹，谷歌暴涨9%，美债黄金齐涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时37分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">汽车 自动驾驶 机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2135191" target="_blank" class="news-link">人形机器人再现亿元级订单！ToB市场爆发 大模型创新或成关键胜负手</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时37分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">杭州 上海 房价</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31537043" target="_blank" class="news-link">上海各界收听收看纪念大会实况：这是历史的回望，更是精神的洗礼</a> [8] <font color='grey'>- 16时37分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 14 条)</h3>
+            <h4>今日头条 (3 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7546009002929684523/" target="_blank" class="news-link">麒麟芯片时隔4年回归华为发布会</a> [20]</li><li><a href="https://www.toutiao.com/trending/7545183907939975206/" target="_blank" class="news-link">余承东称三折叠能超越华为的只有华为</a> [23]</li><li><a href="https://www.toutiao.com/trending/7545695816191606838/" target="_blank" class="news-link">华为Mate XTs非凡大师发布</a> [26]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E6%96%B0%E6%AC%BE%E4%B8%89%E6%8A%98%E5%8F%A0%E6%89%8B%E6%9C%BA%E8%B5%B7%E5%94%AE%E4%BB%B717999%E5%85%83" target="_blank" class="news-link">华为新款三折叠手机起售价17999元</a> [15]</li></ul><h4>华尔街见闻 (2 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3754905" target="_blank" class="news-link">创业板跌超4%，寒武纪跌近15%，银行股逆势拉升、农行大涨5%总市值首超工行，国债反弹</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3754903" target="_blank" class="news-link">张忆东：7月以来港股利空已接近尾声，A股和港股都将走出超级长牛</a> [9]</li></ul><h4>财联社热门 (4 条)</h4><ul><li><a href="https://www.cls.cn/detail/2135502" target="_blank" class="news-link">两部门：加强CPU、高性能人工智能服务器、软硬件协同等攻关力度 开展人工智能芯片与大模型适应性测试</a> <font color='red'><strong>[3]</strong></font></li><li><a href="https://www.cls.cn/detail/2135317" target="_blank" class="news-link">AI版Siri虽迟但到？苹果或联手谷歌Gemini 升级iPhone搜索功能</a> [7]</li><li><a href="https://www.cls.cn/detail/2135374" target="_blank" class="news-link">【午报】科创50指数半日跌超5%，半导体、算力硬件股全线退潮</a> [8]</li><li><a href="https://www.cls.cn/detail/2135315" target="_blank" class="news-link">要和好了？特朗普称赞马斯克“80%是个超级天才” 呼吁其回归共和党</a> [13]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8mN10v114bv" target="_blank" class="news-link">美防长谈九三阅兵：美国不寻求和中国发生冲突</a> <font color='red'><strong>[3]</strong></font></li></ul><h4>weibo (2 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%8D%8E%E4%B8%BA%E5%8F%91%E5%B8%83%E4%BC%9A&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D12%26flag%3D1%26pos%3D12%26c_type%3D31%26lcate%3D5001%26band_rank%3D12%26cate%3D5001%26stream_entry_id%3D31%26q%3D%25E5%258D%258E%25E4%25B8%25BA%25E5%258F%2591%25E5%25B8%2583%25E4%25BC%259A%26dgr%3D0%26filter_type%3Drealtimehot%26display_time%3D1756974977%26pre_seqid%3D17569749775350416705017" target="_blank" class="news-link">华为发布会</a> [12]</li><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA%E9%A6%96%E6%AC%A1%E5%AE%98%E5%AE%A3%E9%9D%9E%E5%87%A1%E5%A4%A7%E5%B8%88%E5%93%81%E7%89%8CLOGO%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D18%26flag%3D1%26pos%3D18%26c_type%3D31%26lcate%3D5001%26band_rank%3D18%26cate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E5%258D%258E%25E4%25B8%25BA%25E9%25A6%2596%25E6%25AC%25A1%25E5%25AE%2598%25E5%25AE%25A3%25E9%259D%259E%25E5%2587%25A1%25E5%25A4%25A7%25E5%25B8%2588%25E5%2593%2581%25E7%2589%258CLOGO%2523%26dgr%3D0%26filter_type%3Drealtimehot%26display_time%3D1756974977%26pre_seqid%3D17569749775350416705017" target="_blank" class="news-link">华为首次官宣非凡大师品牌LOGO</a> [18]</li></ul><h4>douyin (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2225470" target="_blank" class="news-link">华为新品发布会</a> [16]</li></ul></div>
+        </body>
+        </html>
+        
