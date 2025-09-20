@@ -1,0 +1,170 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-09-20 20:52:44</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能 A股</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BD%91%E8%AD%A6%E7%A0%B4%E8%8E%B7AI%E6%8D%A2%E8%84%B8%E9%9D%9E%E6%B3%95%E4%BE%B5%E5%85%A5%E6%A1%88" target="_blank" class="news-link">网警破获AI换脸非法侵入案</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时52分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7551914673802313754/" target="_blank" class="news-link">网警破获AI换脸非法侵入系统案</a> [6] <font color='grey'>- 20时52分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%87%80%E7%BD%91%EF%BC%9A%E7%BD%91%E8%AD%A6%E7%A0%B4%E8%8E%B7%E2%80%9CAI%E6%8D%A2%E8%84%B8%E2%80%9D%E4%BE%B5%E5%85%A5%E7%B3%BB%E7%BB%9F%E6%A1%88" target="_blank" class="news-link">净网：网警破获“AI换脸”侵入系统案</a> [6] <font color='grey'>- 20时52分</font><br>[douyin] <a href="https://www.douyin.com/hot/2243143" target="_blank" class="news-link">净网：网警破获“AI换脸”非法侵入计算机系统案</a> [6] <font color='grey'>- 20时52分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E7%89%88%E9%AB%98%E4%B8%AD%E7%94%9F%E6%8A%A2%E9%A5%AD" target="_blank" class="news-link">AI版高中生抢饭</a> [15] <font color='grey'>- 20时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美股 纳斯达克 港股 道琼斯 指数</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2150822" target="_blank" class="news-link">美股收盘：三大指数再创历史新高 降息为市场涨势增添了动力</a> [6] <font color='grey'>- 20时52分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755911" target="_blank" class="news-link">“三巫日”成交量激增，美股再创新高，美元三连涨，白银时隔14年重回43美元高位</a> [8] <font color='grey'>- 20时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">车祸 冲突 交通事故 军方 地震</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2243426" target="_blank" class="news-link">台湾海峡发生4.1级地震</a> [13] <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7551972642643791401/" target="_blank" class="news-link">台湾海峡为什么多次发生地震</a> [21] <font color='grey'>- 20时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">杭州 上海 房价</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1952111669321925081" target="_blank" class="news-link">杭州一女教师因在微信群传播不实信息，造谣另一女教师卖淫被行拘，案件有哪些细节值得关注？</a> [6] <font color='grey'>- 20时52分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9D%AD%E5%B7%9E%E7%BD%91%E7%90%83%E5%85%AC%E5%BC%80%E8%B5%9BDay4" target="_blank" class="news-link">杭州网球公开赛Day4</a> [11] <font color='grey'>- 20时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">华为 比亚迪 茅台 万科 京东方 宁德时代 平安 三一重工 银行股</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2150879" target="_blank" class="news-link">华为官宣昇腾AI、具身智能新动向 多家上市公司参与</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">字节 张一鸣</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755937" target="_blank" class="news-link">字节跳动：将按中国法律要求推进相关工作，让TikTok美国公司继续服务好美国用户</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2150303" target="_blank" class="news-link">起底全球估值NO.1机器人公司 39岁创始人被称作“下一个马斯克” 背后站满硅谷巨头</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">苹果 Apple 黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755928" target="_blank" class="news-link">OpenAI加速挖苹果墙角：与立讯精密达成硬件制造协议，计划在2026年末或2027年初推出首款设备</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">chatgpt openai 奥特曼</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2150781" target="_blank" class="news-link">OpenAI首批智能硬件传出新消息</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">芯片 半导体 光刻机 科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7552085644701339163/" target="_blank" class="news-link">中国芯片9月迎来历史性拐点</a> [24] <font color='grey'>- 20时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">大涨 大跌 上市</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E6%89%94%E7%AD%BE%E8%AF%81%E2%80%9C%E7%82%B8%E5%BC%B9%E2%80%9D%EF%BC%9A%E8%BF%94%E7%BE%8E%E6%9C%BA%E7%A5%A8%E5%A4%A7%E6%B6%A8" target="_blank" class="news-link">特朗普扔签证“炸弹”：返美机票大涨</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">美女 女神</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%B5%84%E4%BA%A7%E4%B8%8A%E4%BA%BF%E5%8C%BB%E7%BE%8E%E5%A5%B3%E8%80%81%E6%9D%BF%E7%96%91%E8%A2%AB%E9%AA%97%E5%8E%BB%E6%B3%B0%E5%9B%BD" target="_blank" class="news-link">资产上亿医美女老板疑被骗去泰国</a> [19] <font color='grey'>- 20时52分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 5 条)</h3>
+            <h4>今日头条 (2 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7551972642643791401/" target="_blank" class="news-link">台湾海峡为什么多次发生地震</a> [21]</li><li><a href="https://www.toutiao.com/trending/7552085644701339163/" target="_blank" class="news-link">中国芯片9月迎来历史性拐点</a> [24]</li></ul><h4>百度热搜 (2 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E6%89%94%E7%AD%BE%E8%AF%81%E2%80%9C%E7%82%B8%E5%BC%B9%E2%80%9D%EF%BC%9A%E8%BF%94%E7%BE%8E%E6%9C%BA%E7%A5%A8%E5%A4%A7%E6%B6%A8" target="_blank" class="news-link">特朗普扔签证“炸弹”：返美机票大涨</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.baidu.com/s?wd=%E8%B5%84%E4%BA%A7%E4%B8%8A%E4%BA%BF%E5%8C%BB%E7%BE%8E%E5%A5%B3%E8%80%81%E6%9D%BF%E7%96%91%E8%A2%AB%E9%AA%97%E5%8E%BB%E6%B3%B0%E5%9B%BD" target="_blank" class="news-link">资产上亿医美女老板疑被骗去泰国</a> [19]</li></ul><h4>douyin (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2243426" target="_blank" class="news-link">台湾海峡发生4.1级地震</a> [13]</li></ul></div>
+        </body>
+        </html>
+        
