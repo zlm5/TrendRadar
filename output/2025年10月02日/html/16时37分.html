@@ -1,0 +1,162 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-02 16:37:32</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美股 纳斯达克 港股 道琼斯 指数</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756580" target="_blank" class="news-link">Q4开门红：政府关门后美股再创新高，ADP促降息预期，美债跳涨，黄金又新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时37分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756606" target="_blank" class="news-link">Q4首个交易日港股高开，半导体股冲高，中芯国际涨11%创历史新高，快手涨7%，阿里涨超4%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时37分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756590" target="_blank" class="news-link">美国9月ISM制造业PMI连续七个月收缩，新订单回落，价格指数三连降</a> [6] <font color='grey'>- 16时37分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2161710" target="_blank" class="news-link">恒生科技指数突破6600点创阶段新高 港股科技股“狂飙”逻辑何在？</a> [13] <font color='grey'>- 16时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">杭州 上海 房价</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31589460" target="_blank" class="news-link">发现夜上海｜老字号延时打烊，为南京路步行街带来什么？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时37分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9D%AD%E5%B7%9E%E8%A5%BF%E6%B9%96%E6%99%AF%E5%8C%BA%E9%B8%9F%E7%9E%B0%E8%A7%86%E8%A7%92" target="_blank" class="news-link">杭州西湖景区鸟瞰视角</a> [6] <font color='grey'>- 16时37分</font></div><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31716024" target="_blank" class="news-link">上海闵行警方：一女子酒后严重扰乱赛场秩序，已被行政处罚</a> [10] <font color='grey'>- 16时37分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%8A%E6%B5%B7%E8%99%B9%E5%8F%A3%E8%BF%9C%E8%99%B9%E5%A4%A7%E5%8E%A6%E6%8B%86%E8%BF%81%E2%80%9D%E7%B3%BB%E8%B0%A3%E8%A8%80" target="_blank" class="news-link">“上海虹口远虹大厦拆迁”系谣言</a> [11] <font color='grey'>- 16时37分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">苹果 Apple 黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756599" target="_blank" class="news-link">苹果暂停Vision Pro开发，全力转向AI智能眼镜，挑战Meta</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时37分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756586" target="_blank" class="news-link">“科技投资大师”警告：AI估值飙升“令人不安”，英伟达千亿押注OpenAI让人想起互联网泡沫</a> [7] <font color='grey'>- 16时37分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2161248" target="_blank" class="news-link">美股收盘：三大指数集体上涨 道指、英伟达双双收新高</a> [12] <font color='grey'>- 16时37分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1956845666765632887" target="_blank" class="news-link">如何看待微软把 Xbox Gamepass Ultimate 的价格上涨至 29.99 美元一月？</a> [7] <font color='grey'>- 16时37分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%BE%AE%E8%BD%AFXGP%E5%86%8D%E5%BA%A6%E6%B6%A8%E4%BB%B7%E5%B9%B6%E8%B0%83%E6%95%B4%E7%AD%89%E7%BA%A7" target="_blank" class="news-link">微软XGP再度涨价并调整等级</a> [17] <font color='grey'>- 16时37分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai 人工智能 A股</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31220716" target="_blank" class="news-link">青春有Young｜当AI“进山”，我们看到乡村孩子的渴望与思考</a> [7] <font color='grey'>- 16时37分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756607" target="_blank" class="news-link">摩根大通大幅上调阿里目标价，看好新的飞轮：“将AI云的Token转化为电商的抽成率”</a> [8] <font color='grey'>- 16时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">汽车 自动驾驶 机器人</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1956841259089003844" target="_blank" class="news-link">山东威海一车主称，他的小米汽车突然自己开走了，可能发生了什么?</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345507&amp;amp;topic_name=su7%E4%B8%8D%E5%8F%97%E6%8E%A7%2C%E5%8C%96%E8%BA%AB%E6%B1%BD%E8%BD%A6%E4%BA%BA%E8%87%AA%E5%B7%B1%E5%BC%80%E8%B5%B0" target="_blank" class="news-link">su7不受控,化身汽车人自己开走</a> [6] <font color='grey'>- 16时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">华为 比亚迪 茅台 万科 京东方 宁德时代 平安 三一重工 银行股</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345481&amp;amp;topic_name=%E5%8D%8E%E4%B8%BA%E8%BD%AC%E6%88%98AI%E9%A2%86%E5%9F%9F%2C%E4%BD%99%E6%89%BF%E4%B8%9C%E7%8B%AC%E6%8C%91%E5%A4%A7%E6%A2%81" target="_blank" class="news-link">华为转战AI领域,余承东独挑大梁</a> [29] <font color='grey'>- 16时37分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">京东 淘宝 拼多多 美团</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345506&amp;amp;topic_name=%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E5%A5%87%E5%90%A7%E2%80%94%E7%BE%8E%E5%9B%A2%E4%BC%97%E5%8C%85%E5%90%A7" target="_blank" class="news-link">每天一个奇吧—美团众包吧</a> [10] <font color='grey'>- 16时37分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8n6zteUe2jo" target="_blank" class="news-link">马斯克成为全球首位身价破5000亿美元的富豪</a> [11] <font color='grey'>- 16时37分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">chatgpt openai 奥特曼</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756587" target="_blank" class="news-link">OpenAI与三星、SK海力士达成初步协议，为星际之门项目供应芯片</a> [10] <font color='grey'>- 16时37分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">美女 女神</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8n7WPziPPLq" target="_blank" class="news-link">自由女神像火炬或因政府停摆熄火</a> [8] <font color='grey'>- 16时37分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 8 条)</h3>
+            <h4>华尔街见闻 (2 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3756606" target="_blank" class="news-link">Q4首个交易日港股高开，半导体股冲高，中芯国际涨11%创历史新高，快手涨7%，阿里涨超4%</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3756607" target="_blank" class="news-link">摩根大通大幅上调阿里目标价，看好新的飞轮：“将AI云的Token转化为电商的抽成率”</a> [8]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E6%9D%AD%E5%B7%9E%E8%A5%BF%E6%B9%96%E6%99%AF%E5%8C%BA%E9%B8%9F%E7%9E%B0%E8%A7%86%E8%A7%92" target="_blank" class="news-link">杭州西湖景区鸟瞰视角</a> [6]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2161710" target="_blank" class="news-link">恒生科技指数突破6600点创阶段新高 港股科技股“狂飙”逻辑何在？</a> [13]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8n7WPziPPLq" target="_blank" class="news-link">自由女神像火炬或因政府停摆熄火</a> [8]</li></ul><h4>tieba (1 条)</h4><ul><li><a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345507&amp;amp;topic_name=su7%E4%B8%8D%E5%8F%97%E6%8E%A7%2C%E5%8C%96%E8%BA%AB%E6%B1%BD%E8%BD%A6%E4%BA%BA%E8%87%AA%E5%B7%B1%E5%BC%80%E8%B5%B0" target="_blank" class="news-link">su7不受控,化身汽车人自己开走</a> [6]</li></ul><h4>zhihu (2 条)</h4><ul><li><a href="https://www.zhihu.com/question/1956841259089003844" target="_blank" class="news-link">山东威海一车主称，他的小米汽车突然自己开走了，可能发生了什么?</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://www.zhihu.com/question/1956845666765632887" target="_blank" class="news-link">如何看待微软把 Xbox Gamepass Ultimate 的价格上涨至 29.99 美元一月？</a> [7]</li></ul></div>
+        </body>
+        </html>
+        
