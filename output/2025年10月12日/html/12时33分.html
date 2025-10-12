@@ -1,0 +1,146 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-12 12:33:27</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能 A股</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%8F%AD%E7%A7%98AI%E5%B8%A6%E8%B4%A7%E2%80%9C%E6%9D%8E%E9%AC%BC%E2%80%9D" target="_blank" class="news-link">央视揭秘AI带货“李鬼”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时33分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2166330" target="_blank" class="news-link">应声一字涨停！A股三季报行情纵深推进，17家上市公司净利最高同比预增超100%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时33分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7560106683574259251/" target="_blank" class="news-link">美股全线暴跌对A股冲击会有多大</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时33分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757009" target="_blank" class="news-link">AI引爆美国电力需求，燃气轮机成“关键瓶颈”，GE Vernova、西门子能源和三菱重工“三巨头”面临抉择</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时33分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2166644" target="_blank" class="news-link">环球下周看点：美股Q3财报季揭幕 美国经济、AI叙事面临审视</a> [12] <font color='grey'>- 12时33分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7560127046853070372/" target="_blank" class="news-link">下周A股是加仓还是撤退</a> [13] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">车祸 冲突 交通事故 军方 地震</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8nNox3W5maZ" target="_blank" class="news-link">参加加沙停火谈判的卡塔尔代表团遭遇车祸，已致3死3伤</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时33分</font><br>[weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%A1%E5%A1%94%E5%B0%94%E4%BB%A3%E8%A1%A8%E5%9B%A2%E9%81%AD%E9%81%87%E8%BD%A6%E7%A5%B8%E5%B7%B2%E8%87%B43%E6%AD%BB3%E4%BC%A4%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D2%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26cate%3D5001%26band_rank%3D2%26pos%3D1%26stream_entry_id%3D31%26lcate%3D5001%26q%3D%2523%25E5%258D%25A1%25E5%25A1%2594%25E5%25B0%2594%25E4%25BB%25A3%25E8%25A1%25A8%25E5%259B%25A2%25E9%2581%25AD%25E9%2581%2587%25E8%25BD%25A6%25E7%25A5%25B8%25E5%25B7%25B2%25E8%2587%25B43%25E6%25AD%25BB3%25E4%25BC%25A4%2523%26flag%3D0%26display_time%3D1760242787%26pre_seqid%3D17602427873310374219001" target="_blank" class="news-link">卡塔尔代表团遭遇车祸已致3死3伤</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时33分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31758325" target="_blank" class="news-link">王毅就加沙冲突达成第一阶段协议表明立场</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时33分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nMnmel87E4" target="_blank" class="news-link">王毅就加沙冲突达成第一阶段协议表明立场</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时33分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7560099175565328435/" target="_blank" class="news-link">卡塔尔代表团遭遇车祸已致3死3伤</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时33分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%81%9C%E7%81%AB%E8%B0%88%E5%88%A4%E5%8D%A1%E5%A1%94%E5%B0%94%E4%BB%A3%E8%A1%A8%E5%9B%A2%E9%81%87%E8%BD%A6%E7%A5%B83%E6%AD%BB3%E4%BC%A4" target="_blank" class="news-link">停火谈判卡塔尔代表团遇车祸3死3伤</a> [14] <font color='grey'>- 12时33分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">美股 纳斯达克 港股 道琼斯 指数</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/premium/articles/3756980?layout=wscn-layout" target="_blank" class="news-link">精准预言美股再次爆金币！付鹏详解为何在专栏预先提示风险隐患？下一步怎么看？【付鹏说8】</a> [7] <font color='grey'>- 12时33分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E8%82%A1%E5%A4%A7%E8%B7%8C%E8%83%8C%E5%90%8E%E5%8E%9F%E5%9B%A0%E6%98%AF%E4%BB%80%E4%B9%88" target="_blank" class="news-link">美股大跌背后原因是什么</a> [16] <font color='grey'>- 12时33分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345682&amp;amp;topic_name=%E7%BE%8E%E8%82%A1%E5%A4%A7%E6%9A%B4%E8%B7%8C%2C%E7%99%BD%E5%AE%AB%E8%B6%81%E6%9C%BA%E6%BB%A1%E4%BB%93%E5%81%9A%E7%A9%BA" target="_blank" class="news-link">美股大暴跌,白宫趁机满仓做空</a> [16] <font color='grey'>- 12时33分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">杭州 上海 房价</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757010" target="_blank" class="news-link">房价：如何稳住？</a> [10] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%9C%E5%8C%97%E5%B0%8F%E5%9F%8E%E6%88%BF%E4%BB%B7153%E5%85%83%2F%E5%B9%B3%EF%BC%9F%E4%B8%AD%E4%BB%8B%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">东北小城房价153元/平？中介回应</a> [22] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">DeepSeek 梁文锋 宇树</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%AE%87%E6%A0%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%A5%E9%80%89%E5%B9%B4%E5%BA%A6%E6%9C%80%E4%BD%B3%E5%8F%91%E6%98%8E" target="_blank" class="news-link">宇树机器人入选年度最佳发明</a> [15] <font color='grey'>- 12时33分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">华为 比亚迪 茅台 万科 京东方 宁德时代 平安 三一重工 银行股</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%87%E7%A7%91%E8%91%A3%E4%BA%8B%E9%95%BF%E8%BE%9B%E6%9D%B0%E5%B7%B2%E5%A4%B1%E8%81%94%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D4%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26cate%3D5001%26band_rank%3D4%26pos%3D3%26stream_entry_id%3D31%26lcate%3D5001%26q%3D%2523%25E4%25B8%2587%25E7%25A7%2591%25E8%2591%25A3%25E4%25BA%258B%25E9%2595%25BF%25E8%25BE%259B%25E6%259D%25B0%25E5%25B7%25B2%25E5%25A4%25B1%25E8%2581%2594%2523%26flag%3D2%26display_time%3D1760242787%26pre_seqid%3D17602427873310374219001" target="_blank" class="news-link">万科董事长辛杰已失联</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">字节 张一鸣</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757014" target="_blank" class="news-link">张一鸣久违现身，大佬纷纷杀回一线</a> [9] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E8%B0%B7%E6%AD%8C%E5%89%8DCEO%E8%AD%A6%E5%91%8A%EF%BC%9AAI%E5%8F%AF%E8%83%BD%E5%AD%A6%E4%BC%9A%E6%9D%80%E4%BA%BA" target="_blank" class="news-link">谷歌前CEO警告：AI可能学会杀人</a> [17] <font color='grey'>- 12时33分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">美女 女神</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E7%BE%8E%E5%A5%B3%E5%8D%9A%E4%B8%BB%E2%80%9D%E8%AF%B1%E5%AF%BC%E7%AD%96%E5%8F%8D100%E4%BD%99%E4%BA%BA%E7%AA%83%E5%AF%86" target="_blank" class="news-link">“美女博主”诱导策反100余人窃密</a> [8] <font color='grey'>- 12时33分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 5 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7560127046853070372/" target="_blank" class="news-link">下周A股是加仓还是撤退</a> [13]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E4%B8%9C%E5%8C%97%E5%B0%8F%E5%9F%8E%E6%88%BF%E4%BB%B7153%E5%85%83%2F%E5%B9%B3%EF%BC%9F%E4%B8%AD%E4%BB%8B%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">东北小城房价153元/平？中介回应</a> [22]</li></ul><h4>华尔街见闻 (2 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3757014" target="_blank" class="news-link">张一鸣久违现身，大佬纷纷杀回一线</a> [9]</li><li><a href="https://wallstreetcn.com/articles/3757010" target="_blank" class="news-link">房价：如何稳住？</a> [10]</li></ul><h4>weibo (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%87%E7%A7%91%E8%91%A3%E4%BA%8B%E9%95%BF%E8%BE%9B%E6%9D%B0%E5%B7%B2%E5%A4%B1%E8%81%94%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D4%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26cate%3D5001%26band_rank%3D4%26pos%3D3%26stream_entry_id%3D31%26lcate%3D5001%26q%3D%2523%25E4%25B8%2587%25E7%25A7%2591%25E8%2591%25A3%25E4%25BA%258B%25E9%2595%25BF%25E8%25BE%259B%25E6%259D%25B0%25E5%25B7%25B2%25E5%25A4%25B1%25E8%2581%2594%2523%26flag%3D2%26display_time%3D1760242787%26pre_seqid%3D17602427873310374219001" target="_blank" class="news-link">万科董事长辛杰已失联</a> <font color='red'><strong>[4]</strong></font></li></ul></div>
+        </body>
+        </html>
+        
