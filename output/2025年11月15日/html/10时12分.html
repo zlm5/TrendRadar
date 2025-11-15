@@ -1,0 +1,146 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-11-15 10:12:29</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">苹果 Apple 黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">8</td>
+                    <td class="percentage">3.14%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759409" target="_blank" class="news-link">桥水Q3大砍英伟达持仓65%，谷歌、Meta持仓腰斩，加仓美国大盘指数，清仓新兴市场ETF</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时12分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7572583491100049414/" target="_blank" class="news-link">苹果针织手机包开售半小时内抢光</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E2%80%9C%E8%A2%9C%E5%AD%90%E6%89%8B%E6%9C%BA%E8%A2%8B%E2%80%9D%E5%A4%9A%E6%AC%BE%E5%BC%80%E5%94%AE%E5%8D%B3%E5%91%8A%E7%BD%84" target="_blank" class="news-link">苹果“袜子手机袋”多款开售即告罄</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2201442" target="_blank" class="news-link">美股收盘：科技股反弹纳指止步三连跌 焦点转向英伟达财报</a> [6] <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759431" target="_blank" class="news-link">巴菲特“退休”前伯克希尔调整巨头押注：Q3加速抛苹果，建仓谷歌</a> [7] <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2201480" target="_blank" class="news-link">巴菲特“退休”前最后一份持仓报告：卖苹果，买谷歌，连续12季度净卖出</a> [9] <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571639541745074217/" target="_blank" class="news-link">骑手送6台苹果手机半路失联</a> [12] <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2201427" target="_blank" class="news-link">230美元iPhone Pocket上架即售罄 苹果最新跨界配件引热议</a> [13] <font color='grey'>- 10时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">汽车 自动驾驶 机器人</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759365" target="_blank" class="news-link">受汽车和家电拖累，中国10月社零同比增速放缓至2.9%，金银珠宝零售同比增长37.6%</a> [6] <font color='grey'>- 10时12分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2201355" target="_blank" class="news-link">四部门重拳出击！“零公里二手车”出口被叫停、曾遭长城汽车董事长“痛批”</a> [11] <font color='grey'>- 10时12分</font></div><br>[zhihu] <a href="https://www.zhihu.com/question/1972723249331864758" target="_blank" class="news-link">理想汽车发布两起质量事故处理公告，共 18 名员工被问责，能挽回消费者信任吗？哪些后续保障更值得关注？</a> [12] <font color='grey'>- 10时12分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7572063487602589732/" target="_blank" class="news-link">极星汽车在中国前10月仅卖163辆</a> [16] <font color='grey'>- 10时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">芯片 半导体 光刻机 科技 核能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759354" target="_blank" class="news-link">科技股逢低买盘助纳指收高，但道指下挫，比特币四连跌，金银下挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2201445" target="_blank" class="news-link">【早报】国常会重磅部署！事关两重”建设、促消费；三星部分内存芯片提价60%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时12分</font></div><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31968899" target="_blank" class="news-link">荷经济大臣卡雷曼斯就安世半导体问题表态，商务部：极度失望和强烈不满</a> [6] <font color='grey'>- 10时12分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8oHantGDtFs" target="_blank" class="news-link">商务部回应荷兰官员涉安世半导体言论：极度失望、强烈不满</a> [6] <font color='grey'>- 10时12分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美股 纳斯达克 港股 道琼斯 指数</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759375" target="_blank" class="news-link">美股还会跌多久？历史数据看，大涨后抛售潮平均持续25个交易日，当前已经21天了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时12分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2201293" target="_blank" class="news-link">避险情绪持续升温 美股、黄金、比特币齐跌 | 今夜看点</a> [7] <font color='grey'>- 10时12分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2201450" target="_blank" class="news-link">高瓴HHLR三季度美股持仓：持股总市值暴增70亿 持续加大中国资产配置</a> [12] <font color='grey'>- 10时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai 人工智能 A股</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759380" target="_blank" class="news-link">豪赌AI代价惨重：甲骨文债务激增、股价暴跌30%居科技股跌幅榜首</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时12分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759419" target="_blank" class="news-link">万亿美元AI投资回报被夸大？现在每个人都在问：GPU的寿命究竟有几年？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">杭州 上海 房价</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31966454" target="_blank" class="news-link">上海通报“绿捷食安事件”：已查明违法犯罪事实，公司8名责任人被依法执行逮捕</a> [7] <font color='grey'>- 10时12分</font><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1972793086460523818" target="_blank" class="news-link">演员张磊吐槽上海一商店文具贵，一款橡皮卖 1999 元，客服称 PVC 材质擦拭更干净，是真的吗？</a> [9] <font color='grey'>- 10时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">华为 比亚迪 茅台 万科 京东方 宁德时代 平安 三一重工 银行股</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31887572" target="_blank" class="news-link">直播丨神二十乘组“换乘”神二十一回家，3名航天员平安到家</a> [14] <font color='grey'>- 10时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">车祸 冲突 交通事故 军方 地震</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8oHKeKKL4fy" target="_blank" class="news-link">泰柬边境冲突再起，马来西亚提议主办新一轮和平谈判</a> [9] <font color='grey'>- 10时12分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">美女 女神</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=SMTR25Cover%E7%8B%BC%E4%B8%8E%E7%BE%8E%E5%A5%B3" target="_blank" class="news-link">SMTR25Cover狼与美女</a> [25] <font color='grey'>- 10时12分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 15 条)</h3>
+            <h4>今日头条 (3 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7572583491100049414/" target="_blank" class="news-link">苹果针织手机包开售半小时内抢光</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.toutiao.com/trending/7571639541745074217/" target="_blank" class="news-link">骑手送6台苹果手机半路失联</a> [12]</li><li><a href="https://www.toutiao.com/trending/7572063487602589732/" target="_blank" class="news-link">极星汽车在中国前10月仅卖163辆</a> [16]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E2%80%9C%E8%A2%9C%E5%AD%90%E6%89%8B%E6%9C%BA%E8%A2%8B%E2%80%9D%E5%A4%9A%E6%AC%BE%E5%BC%80%E5%94%AE%E5%8D%B3%E5%91%8A%E7%BD%84" target="_blank" class="news-link">苹果“袜子手机袋”多款开售即告罄</a> <font color='red'><strong>[5]</strong></font></li></ul><h4>华尔街见闻 (3 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3759354" target="_blank" class="news-link">科技股逢低买盘助纳指收高，但道指下挫，比特币四连跌，金银下挫</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3759419" target="_blank" class="news-link">万亿美元AI投资回报被夸大？现在每个人都在问：GPU的寿命究竟有几年？</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3759431" target="_blank" class="news-link">巴菲特“退休”前伯克希尔调整巨头押注：Q3加速抛苹果，建仓谷歌</a> [7]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_31887572" target="_blank" class="news-link">直播丨神二十乘组“换乘”神二十一回家，3名航天员平安到家</a> [14]</li></ul><h4>财联社热门 (6 条)</h4><ul><li><a href="https://www.cls.cn/detail/2201445" target="_blank" class="news-link">【早报】国常会重磅部署！事关两重”建设、促消费；三星部分内存芯片提价60%</a> <font color='red'><strong>[3]</strong></font></li><li><a href="https://www.cls.cn/detail/2201442" target="_blank" class="news-link">美股收盘：科技股反弹纳指止步三连跌 焦点转向英伟达财报</a> [6]</li><li><a href="https://www.cls.cn/detail/2201480" target="_blank" class="news-link">巴菲特“退休”前最后一份持仓报告：卖苹果，买谷歌，连续12季度净卖出</a> [9]</li><li><a href="https://www.cls.cn/detail/2201355" target="_blank" class="news-link">四部门重拳出击！“零公里二手车”出口被叫停、曾遭长城汽车董事长“痛批”</a> [11]</li><li><a href="https://www.cls.cn/detail/2201450" target="_blank" class="news-link">高瓴HHLR三季度美股持仓：持股总市值暴增70亿 持续加大中国资产配置</a> [12]</li><li><a href="https://www.cls.cn/detail/2201427" target="_blank" class="news-link">230美元iPhone Pocket上架即售罄 苹果最新跨界配件引热议</a> [13]</li></ul><h4>zhihu (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1972793086460523818" target="_blank" class="news-link">演员张磊吐槽上海一商店文具贵，一款橡皮卖 1999 元，客服称 PVC 材质擦拭更干净，是真的吗？</a> [9]</li></ul></div>
+        </body>
+        </html>
+        
